@@ -1,14 +1,40 @@
-# Claude Lévi-Strauss · Skill
+<h1 align="center">levi-strauss.skill</h1>
 
-[中文](README.md) | **English**
+<p align="center">列维-斯特劳斯 · Claude Lévi-Strauss</p>
 
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with Nuwa](https://img.shields.io/badge/Made_with-Nuwa-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
+[中文](README.md) · **English**
 
-Structural relations, classification, and cultural evaluation. A bounded, source-linked thinking resource with neutral analysis by default and an explicitly enabled expression mode.
+<blockquote>
+<p align="center">“The barbarian is, first of all, the person who believes in barbarism.”<br>— Claude Lévi-Strauss · <a href="https://ecg-humanite.fr/humanite/textes/levi-strauss-race-histoire">Race and History</a></p>
+</blockquote>
 
-Built with [nvwa-skill](https://github.com/alchaincyf/nuwa-skill).
+[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with nvwa-skill](https://img.shields.io/badge/Made_with-nvwa--skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 
-[Usage](USAGE.md) · [Research and entry point](SKILL.md)
+**A thinking skill for structural relations, cultural comparison, and recombination: compare how narratives organize relations and question the measures and standpoints used to rank cultures.**
+
+---
+
+## Examples
+
+Illustrative applications written for this README; these are not quotations from the philosopher or transcripts of a live run.
+
+### 1. Two myths both feature a snake. Do they mean the same thing?
+
+> Compare what the snake opposes or transforms and how variants alter those relations. A shared object does not establish shared meaning, and structural similarity alone does not demonstrate historical transmission.
+
+### 2. Does slower technological change make an entire society inferior?
+
+> Specify the measure and standpoint, then examine other forms of accumulated activity. A real difference on one measure need not be denied, but it does not by itself rank an entire people.
+
+## What is distilled
+
+| Method | What it helps examine |
+|---|---|
+| Relational comparison | Compare relations and variants rather than matching isolated symbols. |
+| Available materials | Trace inherited uses, constraints, and recombinations. |
+| Measures and standpoints | Distinguish specific differences from unsupported rankings of entire cultures. |
+
+These are selected, source-grounded methods, not a claim to cover the complete works. See [SKILL.md](SKILL.md) and [extraction notes](EXTRACTION.md) for scope and reasoning.
 
 ## Installation
 
@@ -34,17 +60,39 @@ git clone https://github.com/jiushiaaa/levi-strauss-skill.git
 
 If automatic skill loading is unavailable, provide `SKILL.md` together with the referenced files needed for your question. Research notes remain in their source languages; README and usage guides are bilingual.
 
-## Use
+## Usage
 
-Ask: “Use Claude Lévi-Strauss's ideas to analyze this problem, separating source claims from contemporary inference.” For expression simulation, explicitly request expression mode. Fiction writing and review use ideas without taking over the narrative voice. See the bilingual [usage guide](USAGE.md).
+- **Neutral analysis (default):** “Use Claude Lévi-Strauss’s ideas to analyze this question. Distinguish source claims from contemporary applications.”
+- **Persona expression (optional):** explicitly request “persona expression mode.” It is an acknowledged simulation, not a statement by the philosopher.
 
-## Coverage and evidence
+Fiction work uses the ideas while leaving narrative voice to the writing task. See the bilingual [usage guide](USAGE.md).
 
-The [entry point](SKILL.md) routes to documented, bounded methods and [extraction notes](EXTRACTION.md). The research directory records sources, actual reading ranges, translations, and unresolved gaps. It is not a distillation of the complete works. Research notes remain in their original languages.
+## Research sources
 
-## License
+The Structural Study of Myth; selections from chapter I of The Savage Mind, Race and History, and Tristes Tropiques.
 
-Project-original material is [MIT licensed](LICENSE). Source quotations retain their separate rights. See [attribution](ATTRIBUTION.md).
+- [Source catalogue and reading ranges](source-catalog.md)
+- [Method extraction and evidence](EXTRACTION.md)
+- Opening quotation: <a href="https://ecg-humanite.fr/humanite/textes/levi-strauss-race-histoire">Race and History</a>, 1952, chapter 3. English wording is translated where the source is not English; Chinese quotations are repository translations.
+
+## Repository structure
+
+Main files:
+
+```text
+├── SKILL.md  # Skill entry point and analysis methods
+├── README.md / README.en.md  # Chinese and English introduction
+├── USAGE.md  # Bilingual usage guide
+├── EXTRACTION.md  # Method extraction and evidence
+├── references/  # Research notes and optional expression mode
+└── LICENSE  # MIT license
+```
+
+## Built with
+
+Built with [nvwa-skill](https://github.com/alchaincyf/nuwa-skill).
+
+Original project material is [MIT licensed](LICENSE); quoted works and translations retain their separate rights. See [source notices](ATTRIBUTION.md).
 
 ## More skills
 

@@ -1,14 +1,40 @@
-# 列维-斯特劳斯 · Skill
+<h1 align="center">levi-strauss.skill</h1>
 
-**中文** | [English](README.en.md)
+<p align="center">列维-斯特劳斯 · Claude Lévi-Strauss</p>
 
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with Nuwa](https://img.shields.io/badge/Made_with-Nuwa-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
+**中文** · [English](README.en.md)
 
-结构关系、分类与文化评价。以可追溯原作和明确边界支持思想分析，默认中性，人物表达单独开启。
+<blockquote>
+<p align="center">“野蛮人，首先是相信野蛮之分的人。”<br>— 列维-斯特劳斯 · <a href="https://ecg-humanite.fr/humanite/textes/levi-strauss-race-histoire">《种族与历史》</a></p>
+</blockquote>
 
-使用 [nvwa-skill](https://github.com/alchaincyf/nuwa-skill) 构建。
+[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with nvwa-skill](https://img.shields.io/badge/Made_with-nvwa--skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 
-[使用说明](USAGE.md) · [思想入口与研究材料](SKILL.md)
+**将结构关系、文化比较与有限材料的组合整理为思想分析 Skill，让 AI 比较故事如何组织关系，并反问评价文化时所用的尺度与观察位置。**
+
+---
+
+## 效果示例
+
+以下为说明用法而编写的示例，展示分析思路；不是哲学家原话或实测对话记录。
+
+### 1. 两个神话都有蛇，是否说明它们表达同一个意思？
+
+> 先看蛇在各自叙事中与谁对立、促成什么转换，以及不同版本怎样改变这些关系。相同物件不足以证明同义；结构相似也不能单独证明历史传播。
+
+### 2. 一个社会技术发展慢，是不是整体更落后？
+
+> 先说明指标和观察位置，再比较该社会在其他活动中的积累。某项技术确实较少不必被否认，但不能不经论证就把局部差异扩成整个人群的等级。
+
+## 蒸馏了什么
+
+| 思想方法 | 能帮助分析什么 |
+|---|---|
+| 关系比较 | 比较行动关系与变体，而不只寻找相同符号。 |
+| 有限材料 | 追踪既有材料的用途、约束与重新组合。 |
+| 尺度与位置 | 区分局部指标差异和无依据的整体文化等级。 |
+
+这些方法来自已定位的原作选段，不代表全集蒸馏。具体依据与适用范围见 [SKILL.md](SKILL.md) 和 [提炼说明](EXTRACTION.md)。
 
 ## 安装
 
@@ -34,17 +60,39 @@ git clone https://github.com/jiushiaaa/levi-strauss-skill.git
 
 不支持自动加载时，可把 `SKILL.md` 连同当前问题需要的引用文件交给 agent。README 与使用说明提供中英双语，研究底稿保留原语言。
 
-## 使用
+## 使用方式
 
-例如：“用列维-斯特劳斯的思想分析这个问题，区分原作观点与当代推断。”需要表达模拟时明确开启人物表达模式；文游创作或审读只取思想，不接管作品口吻。详见[双语使用说明](USAGE.md)。
+- **中性思想模式（默认）：**“用列维-斯特劳斯的思想分析这个问题，区分原作观点与当代应用。”
+- **人物表达模式（可选）：**明确提出“开启人物表达模式”。这是注明性质的模拟，不是作者本人发言。
 
-## 思想方法
+文游创作默认只取思想，文风另行决定。详见 [双语使用说明](USAGE.md)。
 
-详见 [SKILL.md](SKILL.md) 与 [EXTRACTION.md](EXTRACTION.md)。目录中的候选、局部证据和未读范围均保留，不能把它们理解成全集蒸馏完成。
+## 调研来源
 
-## 许可
+〈神话的结构研究〉；《野性的思维》第一章选段；《种族与历史》及《忧郁的热带》选段。
 
-项目原创材料采用 [MIT](LICENSE)，引用的原著与译本保留各自权利。详见 [来源说明](ATTRIBUTION.md)。
+- [原作来源、版本与实际阅读范围](source-catalog.md)
+- [方法提炼与证据](EXTRACTION.md)
+- 开篇名言出处：<a href="https://ecg-humanite.fr/humanite/textes/levi-strauss-race-histoire">《种族与历史》</a>，1952 年，第三章。中文引文为本仓库译文；非英语原作的英文引文亦为本仓库译文。
+
+## 仓库结构
+
+主要文件：
+
+```text
+├── SKILL.md  # Skill 入口与分析方法
+├── README.md / README.en.md  # 中英文介绍
+├── USAGE.md  # 双语使用说明
+├── EXTRACTION.md  # 方法提炼与证据
+├── references/  # 研究笔记与可选人物表达模式
+└── LICENSE  # MIT 许可
+```
+
+## 构建工具
+
+使用 [nvwa-skill](https://github.com/alchaincyf/nuwa-skill) 构建。
+
+项目原创材料采用 [MIT](LICENSE)，所引原著与译本保留各自权利。详见 [来源说明](ATTRIBUTION.md)。
 
 ## 更多 Skill
 

@@ -1,0 +1,85 @@
+{
+  "id": "levi-strauss-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "未入会者有正面互补位置，死者／生者关系及教育仅部分功能准确。",
+      "source": "圣诞老人受刑记L106–112法文直接核，https://classiques.uqam.ca/classiques/levi_strauss_claude/pere_noel_supplicie/pere_noel_supplicie_texte.html"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "团结与青年对抗共同存在，领袖既领导又约束越轨有据。",
+      "source": "同作L123–126直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "遗存不独自解释持续，功能与历史传承分别调查，方向与细节吻合。",
+      "source": "同作L114–121直接核"
+    }
+  ],
+  "voice": {
+    "score": 9,
+    "blind_guess": "福柯",
+    "reason": "列维-斯特劳斯为备选。并排置换与不变项比较有相对特征，但未把关系变换展开为结构分析。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 13,
+    "reason": "来源章节、第三方转载和校勘缺口透明，L1卷号校正有记录；未核的民族志不能当今天事实。",
+    "primary_ratio_basis": "神话结构、圣诞老人、野性思维、种族与历史、种族与文化、忧郁热带6部作者一手；UNESCO导读、UQAM目录、德里达外部批评3项，6/9；失败检索和音频仅定位不计。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "L-A/B正确合并，L-C仍类比，L-E新程序对输入尺度和观察位置有实际步骤；两组作者张力后一组仍局部，未由补来源推满分。",
+    "models": [
+      "关系组合及变体检验",
+      "有限材料重组",
+      "评价尺度／观察位置"
+    ],
+    "boundaries": [
+      "相似不证同源",
+      "不任意改模型自证",
+      "相对尺度不否定客观力量",
+      "历时共时不互替"
+    ],
+    "tensions": [
+      "合作／差异的侵蚀",
+      "理解克制／改革行动（冻结17号主张，未直接重核）"
+    ]
+  },
+  "total": 84,
+  "grade": "B",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://classiques.uqam.ca/classiques/levi_strauss_claude/pere_noel_supplicie/pere_noel_supplicie_texte.html",
+      "status": "direct_partial",
+      "read": "法文L106–126局部；未原刊影像校勘，新增其他著作仅目录与提炼继承"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P20",
+    "blind_preference": "first",
+    "mapped_result": "r3_better",
+    "post_unblinding_issues": [
+      "原作L109实际尝试更广泛推广入会解释；Q1主动收窄所有社会的断言是证据谨慎，不应反说作者原文只作局部。Q6关系分类的r3偏好保留，未用新来源冒充其唯一原因。",
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "754e48f04a998261fe7f473929703e3e944df7515e46b68f48dc22c5d6e5756d",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

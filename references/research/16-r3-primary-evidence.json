@@ -1,0 +1,85 @@
+{
+  "failed": [
+    "Cairn chapter442 fetch error",
+    "INA transcript28 inaccessible",
+    "Burgundy1973PDF overwebsize; local PDF parser unavailable"
+  ],
+  "second_tension": {
+    "status": "not_closed",
+    "reason": "1971 anti-discrimination/diversity belongs to already-counted1952 cooperation/diversity family; Tristes excerpt does not establish complete double normative demand",
+    "additional_note": "Sections5-7 acknowledge progress/objective force while correcting ethnocentric total ranks; currently methodological constraints, not enough for independent second commitment tension."
+  },
+  "date": "2026-10-13",
+  "id": "levi-strauss-perspective",
+  "model_candidate": {
+    "failure": "loss of decisive properties; editor operationalization, not author validated law",
+    "name": "缩减感官维度以增加可理解关系",
+    "cross_domain": "not established: science is opposite comparison, not positive execution",
+    "independence": "representation versus material reuse or variant comparison",
+    "status": "single_domain_candidate"
+  },
+  "sources": [
+    {
+      "id": "R3-L1",
+      "type": "author_primary_English_scan_university_host",
+      "url": "https://www.mat.ucsb.edu/~g.legrady/academic/courses/09f200a/pdf/savage_mind.pdf",
+      "read": "web444-631 PDF5-7 print24-29 corresponding portions",
+      "limitation": "OCR; no French or whole chapter"
+    },
+    {
+      "id": "R3-L2",
+      "type": "author_primary_original_article_scan_third_party",
+      "url": "https://mediastudieswlp.wordpress.com/wp-content/uploads/2019/07/strauss_the-structural-study-of-myth.pdf",
+      "read": "web542-647 PDF14-17 print441-444 sections7.2-8.1.3"
+    },
+    {
+      "id": "R3-L3",
+      "type": "author_primary_French_speech_unofficial_transcription",
+      "url": "https://lesamisdebartleby.wordpress.com/2015/11/03/claude-levi-strauss-race-et-culture/",
+      "read": "web151-166 ending; eugenics conclusion to last paragraph",
+      "limitation": "not checked against1971print or audio"
+    },
+    {
+      "id": "R3-L4",
+      "type": "author_primary_French_teaching_excerpt",
+      "url": "https://www.mediterranees.net/litterature/cannibalisme/documents/Levi-strauss_anthropophagie.pdf",
+      "read": "PDF0-1 web2-71; only excerpt not wholechapter38"
+    },
+    {
+      "id": "R3-L5",
+      "url": "https://hurlus.fr/levi-strauss1952_race-histoire/levi-strauss1952_race-histoire.pdf",
+      "type": "author_primary_French_third_party_retypeset_unverified_against_UNESCO",
+      "read": "web0-349,399-956; core488-923 PDF5-9 retypesetpages6-10 sections5-7 complete; section8 opening only",
+      "paragraph_count": "not measured"
+    }
+  ],
+  "note": "16-r3-primary-evidence.md",
+  "role": "primary_evidence_record",
+  "additional_model_candidate": {
+    "name": "评价尺度与观察位置检查",
+    "status": "author_executed_across_objects_candidate_for_independence_review",
+    "chain": [
+      "identify evaluative criterion and observer participation/information",
+      "compare suppressed differences under relevant alternative criterion",
+      "retain criterion-specific objective differences while retracting unsupported total ranking"
+    ],
+    "author_domains": [
+      "cultural technical history",
+      "generational historical experience",
+      "political participation and perceptions of regime history"
+    ],
+    "evidence_level": "author argument examples, not empirical validation in multiple disciplines",
+    "independence": "input/output differ from relational variant explanation and available-material recombination",
+    "limits": [
+      "not universal relativism",
+      "train physics is analogy not validation",
+      "1952 empirical generalizations not independently verified",
+      "no candidate package promotion"
+    ],
+    "locations": [
+      "sections6 web609-649",
+      "web707-812",
+      "section7 web813-923"
+    ]
+  }
+}

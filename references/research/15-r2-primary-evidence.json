@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "url": "https://classiques.uqam.ca/classiques/levi_strauss_claude/pere_noel_supplicie/pere_noel_supplicie_texte.html",
+      "read": "web79-131; printed markers1578-1586",
+      "type": "author_primary_french_university_transcription",
+      "paragraphs": null
+    },
+    {
+      "url": "https://www.mat.ucsb.edu/~g.legrady/academic/courses/09f200a/pdf/savage_mind.pdf",
+      "read": "web16-320 and324-543; PDF0-6 corresponding print14-26 portions; not complete chapter",
+      "type": "author_primary_english_scan_university_host",
+      "paragraphs": null
+    }
+  ],
+  "source_catalog_patch": "See source catalog in this skill.",
+  "date": "2026-10-13",
+  "cross_domain_evidence": "See 15-r2-primary-evidence.md; no automatic upgrade.",
+  "id": "levi-strauss-perspective",
+  "note_file": "15-r2-primary-evidence.md",
+  "persona_patch": "See ../persona-expression.md; explicit mode only.",
+  "gaps": [
+    "20 original paragraphs unverified",
+    "1962 French not read",
+    "two independent models after merging relation/variant; third not established",
+    "only cooperation/difference qualifies as normative tension"
+  ]
+}

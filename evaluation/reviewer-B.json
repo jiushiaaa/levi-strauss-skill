@@ -1,0 +1,97 @@
+{
+  "id": "levi-strauss-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "非入会者的功能性互补并非只有无知；答案保守限制普遍化，原文实际有更广泛的所有入会仪式主张，不能倒说作者自己已作相同限缩。",
+      "source": "《圣诞老人受刑》；核查状态见source_audit"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "中世纪同有团结与对立，真实青年领导者和神话老人的位置发生倒转。",
+      "source": "《圣诞老人受刑》；核查状态见source_audit"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "古老存续不能解释当代功能；分别提出历史沿革与共时关系。",
+      "source": "《圣诞老人受刑》；核查状态见source_audit"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://classiques.uqam.ca/classiques/levi_strauss_claude/pere_noel_supplicie/pere_noel_supplicie_texte.html",
+      "status": "direct_read",
+      "scope": "直接读97–138，重点108–131；非全篇。"
+    }
+  ],
+  "limitations": [
+    "第三模型与第二张力仅继承研究16/17材料，本轮未独立打开其相应原作。",
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 8,
+    "reason": "摆放理由与决定结构的平行措辞可见关系分析，但盲判首先想到福柯，未形成稳定个人声音。",
+    "blind_guess": {
+      "code": "N15",
+      "guess": "福柯（低置信猜测）",
+      "confidence": 0.29,
+      "alternatives": [
+        "列维-斯特劳斯",
+        "维特根斯坦"
+      ],
+      "formal_features": "先提出并排比较的方法，再关注说法与决定的不同变动，末尾拒绝从功能跳到主观欺骗。",
+      "content_clues": "理由作为维持决定的办法、把事实纳入旧安排，有话语运作的分析取向。",
+      "limits": "未出现权力、历史条件等强线索；结构比较也可支持完全不同的作者猜测。"
+    },
+    "limits": "未出现权力、历史条件等强线索；结构比较也可支持完全不同的作者猜测。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 13,
+    "reason": "来源列版本、已读局部及未读范围；本轮对已知题核查仅限source_audit，不把继承研究记录当本轮通读。",
+    "primary_ratio_basis": "合并章节及镜像后至少6部作者作品；UNESCO介绍、目录和德里达批评分别计外部材料，仍超过一半。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "有执行动作、反例和停止条件；仍是局部解释框架，缺完整跨域验证，不按标题数量判成熟。",
+    "models": [
+      "关系及变体合并一个程序",
+      "有限现成材料的修补操作",
+      "评价尺度及观察位置（研究16支持），历时/结构提示不另冒充成熟模型"
+    ],
+    "boundaries": [
+      "无接触证据不推出传播",
+      "二元关系必须受材料约束",
+      "不能将德里达批评当作者承认"
+    ],
+    "tensions": [
+      "合作与差异只算一项张力",
+      "判断克制与反残酷/改革：研究17局部支持，未有全章完整解决"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P20",
+    "blind_preference": "first",
+    "mapped_preference": "r3_better",
+    "reasoning": "first以旧分类、新例外、修订分类行动关系串起检验。second从动作对象变化转到偶尔改变次序，该措施如何恢复细节缺少说明，最后又缩到忽略人的条件。",
+    "expression": "first分类—细节—例外—调整的链条持续围绕一个问题；second连接谁与改变次序较跳跃，虽更有动作感。",
+    "post_unblinding_issues": [
+      "已核Q6完整题干：习惯遮蔽注意只属可能；没有仅因原盲读未见题干而把条件疑点定为错误，保留初判。"
+    ],
+    "limits": "后者或有外部理论依据，但盲样本内未呈现；不据这段否定完整版本。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "blockers": [],
+  "total": 83,
+  "grade": "B",
+  "original_report_sha256": "36d3ce03da6f04977cde22e5d3b4c10bc31e7dd97da0d189dd13be817139c0bb",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

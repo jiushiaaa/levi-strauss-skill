@@ -1,0 +1,37 @@
+{
+  "id": "levi-strauss-perspective",
+  "author": "jiushiaaa",
+  "method": "https://github.com/alchaincyf/nuwa-skill",
+  "source_snapshot": "frozen-r3",
+  "snapshot_manifest": {
+    "id": "levi-strauss-perspective",
+    "files": {
+      "questions.json": "2ec4e82436dbf45e82e424a825929d242ed5db9ec2e67c3afe3a96cd93907c44",
+      "skill/EXTRACTION.md": "adb44260ee2fc8e2d73ff0553f8a8e6070d1f7d1ce1d89a1914aa9264d276150",
+      "skill/references/persona-expression.md": "9af6bc611cb8f36f6f840aa03d91fe10ed3f257ceab66467dcc1d8e6bef3ca6c",
+      "skill/references/research/01-writings.md": "c9cd2fb41885e191f6639da5e80fc5ffc8f2b382c7c6febd1e0a065e1d992a7c",
+      "skill/references/research/02-conversations.md": "707d7136edf05751ac066bc19ee834a55a3f94b997e863903fb623c5dda8a306",
+      "skill/references/research/03-expression-dna.md": "2acc560c77e9388362dbb2d881816b6cb7cb95f3984c0e6d8f077fc046b27f2f",
+      "skill/references/research/04-external-views.md": "504c5595cd1c3c9cd3e3b7c775c2ab41bbf7c2a0e3001af92ccae8dbb41ab4aa",
+      "skill/references/research/05-decisions.md": "b080b9d1f5d672aa32cd88f615c63457834c7e4e876087a4289112b8a4eb257c",
+      "skill/references/research/06-timeline.md": "8fbc910b0b95248d4728a5503bc5f6b16dd6a5db9cf2c3bb87939d0a5a1053a7",
+      "skill/references/research/07-primary-supplement.md": "27d625a3fbd37908013226fabe4e0e02751e097c7c8ba3ac07a05b4e2ee32c99",
+      "skill/references/research/10-deep-primary-language.md": "7fd837624abf7e416c8a667cd91551765cc01806ed503489996fc19bee769645",
+      "skill/references/research/12-nuwa-a-evidence.json": "e793241f3fe497447c0eb8a84e2f472e0bacd34885b9a5b2202ceea06dda10d3",
+      "skill/references/research/12-nuwa-a-evidence.md": "0f63f98ecdd2f05ff7a62056d42277f98a91280ce04d6118819c0ec5e3bc799a",
+      "skill/references/research/13-primary-argument-chains.json": "6ee524e2d5346d0e4c7c4494d3f633e274dc9cdcb9efbdc5b0e6fa0c7efc5645",
+      "skill/references/research/13-primary-argument-chains.md": "83917426c995ecd036d24f2c1b0fccf9d802032e9f7b9a8869e70b0dbf475595",
+      "skill/references/research/14-cultural-cooperation.json": "00eacd28ffd332a392035d7ed850077d3cc65117eb5142666197af3d212406d3",
+      "skill/references/research/14-cultural-cooperation.md": "b72df6d020ea60db79312730a6256a8cfc2ea0ca12550c5dc8aa487329baae44",
+      "skill/references/research/15-r2-primary-evidence.json": "74433e814385965b53045ab6ac56122ce3683845827cbf73fca69931b5299b5f",
+      "skill/references/research/15-r2-primary-evidence.md": "5296064d5b44bd97ae7cb86a4246a2f94223f0ac594d90a5ccbf0cf9c90bb2c7",
+      "skill/references/research/16-r3-primary-evidence.json": "455462d1acf0797305159cd1395f75a894d90e8457a948f033baa34c33f6bb24",
+      "skill/references/research/16-r3-primary-evidence.md": "3ac7636d17491a3405b222c7ea7733bf86164b752dd3afeda03897f9a79efc45",
+      "skill/references/research/17-judgment-action-tension.md": "44cb60c798ae6d3e3359dc915d3606396912fb5d151525df0c39b137ade90cf4",
+      "skill/SKILL.md": "e4f37467f3b9207d52be9464b1bc84ab6f2162ac8d4e27437b8043cf1939e509",
+      "skill/source-catalog.md": "8d3b88af8578eb2f16b7c708d88716a304515b4bf24f1e89e4cde47d7b5bcc31"
+    },
+    "historical_validation_excluded": true
+  },
+  "public_packaging": "Bilingual readmes and usage, attribution, license, sanitized local paths; no score optimization."
+}

@@ -1,0 +1,318 @@
+{
+  "id": "levi-strauss-perspective",
+  "date": "2026-10-13",
+  "coverage": [
+    "1952《圣诞老人受刑记》：旧37–127，本轮连续补读108–146；法文大学电子转载，非原刊校勘。",
+    "1955神话论文：继承428–431、434–436；1962《野性的思维》英译14–21；1972访谈章33旧转录。",
+    "《亲属关系基本结构》《神话学》与1952/1971文化论完整篇未读；本轮INA打开失败。"
+  ],
+  "model_audit": [
+    {
+      "model": "L-A",
+      "name": "关系组合",
+      "cross_domain_evidence": "神话：L1关系束；仪式/年龄组织：L2 108–126。原作两领域支持，但两领域相邻且材料真伪需独立核实。",
+      "status": "关系比较候选",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期比较人物/行动位置而非同一物件",
+      "distinctiveness_hypothesis": "关系束与转换的限定比普通找相似点更具体"
+    },
+    {
+      "model": "L-B",
+      "name": "变体检验",
+      "cross_domain_evidence": "L1神话变体；L7材料组合只是背景，并未证明预先列反证的同一程序。第二领域原作缺口保留。",
+      "status": "研究纪律",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期容纳反向变体并修订关系分类",
+      "distinctiveness_hypothesis": "属广泛研究规范，专属性弱"
+    },
+    {
+      "model": "L-C",
+      "name": "有限材料重组",
+      "cross_domain_evidence": "L7修补劳动与神话思想原作类比；不把类比当独立因果实证。",
+      "status": "类比启发",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期先列可继承材料及历史用途而非无限设计",
+      "distinctiveness_hypothesis": "修补劳动与神话只是作者类比，不证明相同因果"
+    },
+    {
+      "model": "L-D",
+      "name": "传播与结构分开",
+      "cross_domain_evidence": "L2基督教节庆传播与Pueblo仪式比较；仍同篇同一比较研究，第二独立领域未补足。",
+      "status": "降级提醒",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期把传播接触和结构功能作为不同待证问题",
+      "distinctiveness_hypothesis": "区别于单源扩散论；仍非作者独占原则"
+    }
+  ],
+  "primary_additions": [
+    {
+      "url": "https://classiques.uqam.ca/classiques/levi_strauss_claude/pere_noel_supplicie/pere_noel_supplicie_texte.html",
+      "locator": "108–146行；原刊1583–1588附近",
+      "reading": "补强L-D结尾：作者把历史流传与结构变换分列，认为仅说遗存不足以解释持续功能。节庆既联合又对立。保留其跨文化一般化尚须检验，不把旧民族志当当代定论。",
+      "source_grade": "作者一手文本网络转载；版本/翻译限制见coverage；不是全集"
+    }
+  ],
+  "tensions": [
+    "历时继承与共时功能各有解释力：L2 114–121、127–129，不能相互代替。",
+    "节庆团结与冲突同时强化：L2 124–126，是对象内部张力，不宣称作者人格矛盾。"
+  ],
+  "remaining_gaps": [
+    "L-B及L-D双领域不足",
+    "仅20网页行片段，未取得20完整原刊段落",
+    "原住民批评、连续神话学及法文1962原书待读"
+  ],
+  "score": null,
+  "expression": {
+    "sample_method": "2026-10-13 web extraction L90–111: first 20 lines >150 characters, excluding truncated page-marker ending; whitespace normalized; FNV1a32 Unicode codepoints. Convenience sample of web line units, NOT 20 confirmed original paragraphs. HTTP request encountered verification page, not bypassed.",
+    "sample_count": 20,
+    "full_paragraph_count_confirmed": 0,
+    "source_url": "https://classiques.uqam.ca/classiques/levi_strauss_claude/pere_noel_supplicie/pere_noel_supplicie_texte.html",
+    "source_language": "fr",
+    "metrics": {
+      "characters": 8588,
+      "words": 1373,
+      "sentence_end_groups": 48,
+      "question_marks": 4,
+      "first_person_tokens": 4,
+      "contrast_tokens": 6,
+      "words_per_sentence": 28.604166666666668,
+      "question_marks_per_sentence": 0.08333333333333333,
+      "contrast_per_1000_words": 4.369992716678806,
+      "analogy_density": null,
+      "certainty_ratio": null,
+      "characters_per_sentence": 178.917,
+      "first_person_per_1000_words": 2.913
+    },
+    "samples": [
+      {
+        "locator": "web line 90",
+        "fnv1a32": "211c35fc",
+        "characters": 453,
+        "words": 77,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "web line 91",
+        "fnv1a32": "70db78c",
+        "characters": 431,
+        "words": 66,
+        "sentence_end_groups": 3,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 93",
+        "fnv1a32": "8f062625",
+        "characters": 259,
+        "words": 42,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 95",
+        "fnv1a32": "7216cc9b",
+        "characters": 325,
+        "words": 54,
+        "sentence_end_groups": 1,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 96",
+        "fnv1a32": "e7f7f709",
+        "characters": 369,
+        "words": 61,
+        "sentence_end_groups": 1,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 97",
+        "fnv1a32": "5b7c12ba",
+        "characters": 336,
+        "words": 56,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 98",
+        "fnv1a32": "f316ebe1",
+        "characters": 481,
+        "words": 78,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 99",
+        "fnv1a32": "b6b9401",
+        "characters": 438,
+        "words": 68,
+        "sentence_end_groups": 2,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 100",
+        "fnv1a32": "1381d1be",
+        "characters": 504,
+        "words": 69,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 101",
+        "fnv1a32": "3977e2a4",
+        "characters": 454,
+        "words": 73,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 102",
+        "fnv1a32": "69988c20",
+        "characters": 426,
+        "words": 69,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "web line 103",
+        "fnv1a32": "a45467c",
+        "characters": 488,
+        "words": 79,
+        "sentence_end_groups": 2,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 104",
+        "fnv1a32": "3b404e5b",
+        "characters": 467,
+        "words": 75,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 105",
+        "fnv1a32": "a0327bab",
+        "characters": 486,
+        "words": 74,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "web line 106",
+        "fnv1a32": "eb4dd2f9",
+        "characters": 455,
+        "words": 73,
+        "sentence_end_groups": 3,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "web line 107",
+        "fnv1a32": "f9a33e51",
+        "characters": 472,
+        "words": 79,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "web line 108",
+        "fnv1a32": "2bafc297",
+        "characters": 409,
+        "words": 65,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 109",
+        "fnv1a32": "9b880b8c",
+        "characters": 478,
+        "words": 82,
+        "sentence_end_groups": 4,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "web line 110",
+        "fnv1a32": "c6fb6f54",
+        "characters": 310,
+        "words": 44,
+        "sentence_end_groups": 4,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "web line 111",
+        "fnv1a32": "34e0e15f",
+        "characters": 547,
+        "words": 89,
+        "sentence_end_groups": 1,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 0
+      }
+    ],
+    "limitations": [
+      "Web line units may split original paragraphs; 20-paragraph requirement unmet.",
+      "Single essay only; no cross-genre style statistics.",
+      "Question punctuation and first-person/contrast lexical proxies; analogy and certainty unannotated."
+    ],
+    "style_rules": [
+      "从反常具体事件提出问题，再比较关系位置。",
+      "并置历史链与结构对照，交代何种证据回答哪类问题。",
+      "类比必须带材料限制，不凭形状相似宣布同源。"
+    ],
+    "anti_patterns": [
+      "不拼贴标志性引语",
+      "不把译者文风归作者",
+      "不以文风代替事实证据",
+      "默认中性；文游不启用人物表达"
+    ],
+    "metric_definitions": {
+      "words": "Unicode letter words with apostrophe/hyphen joins",
+      "certainty": "unannotated null",
+      "first_person": "en exact I/me/my; de case-insensitive ich/mein/meine; fr je/moi/mon/ma/mes",
+      "analogy": "unannotated null",
+      "contrast": "en but/however/nevertheless/yet; de aber/jedoch/sondern/dennoch/gleichwohl; fr mais/cependant/pourtant/néanmoins",
+      "characters": "Unicode normalized text length (Python codepoints; Levi JS UTF16)",
+      "sentences": "count regex [.!?]+ followed by whitespace or end; minimum1 per unit"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "levi-strauss-perspective",
+  "date": "2026-10-13",
+  "kind": "additional_primary_tension_research",
+  "scored": false,
+  "candidate_modified": false,
+  "source": {
+    "work": "Race et histoire",
+    "author": "Claude Lévi-Strauss",
+    "original_year": 1952,
+    "language": "fr",
+    "url": "https://hurlus.fr/levi-strauss1952_race-histoire/levi-strauss1952_race-histoire.pdf",
+    "edition": "hurlus.fr重排版，标l’édition Unesco；文件标tiré le 23 août 2021；非UNESCO官方原版扫描",
+    "pdf_pages": 16,
+    "sha256": "7908be2382bfcd3d0051df996a10bc28840f71ad934e77d7eeedb2ca453cbcc9",
+    "actual_read": "连续精读第9、10节 La collaboration des cultures / Le double sens du progrès：重排页13–16，web lines1177–1497；另读第一至第三节开头web lines18–345作语境。未读本轮中间章节346–1077，不称通读。",
+    "verification": "web打开PDF文本并调取零起算pageno14截图；本地HTTP成功及SHA256用于版本复核。",
+    "source_level": "一手作者文本的第三方重排载体；未与UNESCO原版逐字校勘"
+  },
+  "decision": {
+    "eligible_as_value_level_tension": true,
+    "scope": "1952文本中作者明确采取的双重规范责任；不是人格自相矛盾或全生涯定论",
+    "name": "促进文化合作，同时维护使合作有生产力的差异",
+    "pole_a": "共同发展要求文化相互合作，孤立不是出路。",
+    "pole_b": "合作会消耗自身依赖的差异；不能把共同人类生活缩成单一模式。",
+    "why_author_internal": "关键不止于描述社会两种过程：1437–1451作者明确要求同时承担两端；1452–1497再赋予国际机构双重任务。故属其规范方案内部持续约束，不是把仪式对象两面重命名。",
+    "does_not_validate_other_tension": "不因此自动认证原有历时/共时条目已达到内在张力标准。"
+  },
+  "argument_chain": [
+    {
+      "locator": "1177–1284 / 重排页13–14",
+      "claim": "积累依靠不同文化联合，不能据成果归结某文化天生优越。"
+    },
+    {
+      "locator": "1330–1380 / 页14–15",
+      "claim": "世界文明应保留文化差异；然而合作趋向同质化，削弱其条件。"
+    },
+    {
+      "locator": "1381–1436 / 页15",
+      "claim": "扩大联合与内部再分化只能暂缓问题；有关剥削及殖民的解释不是正当化。"
+    },
+    {
+      "locator": "1437–1451 / 页15",
+      "claim": "作者要求始终同时保留合作与差异，拒绝排他特殊主义和单一普遍生活公式。"
+    },
+    {
+      "locator": "1452–1497 / 页15–16",
+      "claim": "保护差异须容纳新形式，不等于冻结旧习俗。"
+    }
+  ],
+  "premises_and_limits": [
+    "采用该文本提出的联合模型解释其规范张力，不把轮盘类比当经验定律。",
+    "历史人类学例证属于1952论证背景，未在本轮以当代研究核验；不可把其古史年代、美洲征服或玉米起源假说作当代事实结论。",
+    "只核到两端明确、作者承认其持续制约并提出双重任务；尚未证明具体制度措施如何兼顾两端。",
+    "1971 Race et culture仅搜索到出版信息，未纳入实读或跨期一致性证据。",
+    "新史料不增加20段表达样本，也不自动增列独立成熟模型。"
+  ],
+  "proposed_runtime_note": "讨论文化共同生活时，同时检查合作条件及合作是否抹去差异；既不能借保护差异拒绝人类共同责任，也不能用统一公式替代各文化。具体制度效果无证则停止推演。此为1952文本有限规范约束。",
+  "replacement_rule": "可将候选第二内在张力改用此新增价值张力；原节庆团结/冲突保留为对象层分析，不再计入作者内在张力。是否采用由编写者处理，本文件不改candidate。"
+}
